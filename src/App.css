@@ -1,0 +1,79 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: aquamarine;
+  width: 25%;
+  height:450px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.show-term{
+  width: 200px;
+  height: 200px;
+  background: rgb(80, 80, 179);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  color: #ffff;
+  font-size: 3rem;
+  border: 5px solid #fff;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top:2rem;
+ 
+}
+.button-container button{
+  width: 50px;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 1rem 2rem;
+  background-color: cadetblue;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  font-size: 2rem;
+  color:rgb(215, 224, 222);
+  transition: .2s;
+}
+.button-container button:active{
+  background-color: rgb(133, 167, 168);
+  color: rgb(95, 94, 94);
+  border: 3px solid rgb(95, 94, 94);
+}
+.red{
+  background-color: red;
+}
+.orangered{
+  background-color: orangered;
+}
+.blue{
+  background-color: blue;
+}
+button.red{
+  background-color: red;
+}
+button.orangered{
+  background-color: orangered;
+}
+button.blue{
+  background-color: blue;
+}
